@@ -1,0 +1,202 @@
+.body{
+    background-color: #FAF9F6;
+}
+
+.map-container {
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+  }
+
+.container{
+    background-color: #FAF9F6;
+    font-family: "poppins";
+}
+
+.page {
+    width: 100%;
+    height: 100vh; 
+    background-image: url("../../public/images/NorthCascades.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    box-shadow: inset 0 0 0 2000px rgba(3, 3, 3, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.text{
+    justify-self: center;
+    font-size: 5vh;
+    color: #FAF9F6;
+}
+
+.accent-color{
+    color: #56c596;
+}
+
+.description{
+    margin-top: 20vw;
+    width: 100%;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#3b3b3b;
+    font-size: 3.5vw;
+    margin-bottom: 20vw;
+}
+
+.description h2 {
+    text-align: center;
+}
+
+.Journal{
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+   
+}
+
+.form {
+    max-width: 5 vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.form h1 {
+    text-align: center; 
+    font-size: 24px;
+    margin-bottom: 1vw;
+    color: #3b3b3b;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5vw;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.form .input {
+    width: 100%;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 0.5vw;
+    box-sizing: border-box;
+    font-family: "poppins";
+    font-size: 1vw;
+}
+
+.form button.input {
+    background-color: #56c596; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    width: 100%; 
+}
+
+.form button.input:hover {
+    background-color: #398565; 
+}
+
+.form textarea.input {
+    resize: vertical; 
+    font-family: "poppins";
+}
+
+.places{
+    text-align: center;
+    font-family: "poppins";
+    color: #3b3b3b;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+
+.parksList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.park {
+    display: flex;
+    border-radius: 50px; 
+    box-shadow: 0 2px 5px #ccc;
+    width: 85%;
+    max-width: 85%;
+    background-color: #e3e3e3;
+    margin: 30px;
+}
+
+.leftSide{
+    flex: 1;
+    width: 100%;
+    height: 350px;
+    border-radius: 1vw;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px
+}
+
+.rightSide{
+    flex: 2;
+    overflow: auto;
+    background-color: #FAF9F6;
+    border-radius: 1vw;
+    margin-left: 10px
+}
+
+.park p {
+    color: #3b3b3b;
+}
+
+.park h1{
+    font-size: 30px;
+    color: #3b3b3b;;
+    
+}
+
+.park h2{
+    font-size: 16px;
+    color: #3b3b3b;;
+}
+
+.deleteButton{
+    background-color: #56c596; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    width: 20%; 
+    height: 20%;
+}
+
+.deleteButton:hover{
+    background-color: #398565; 
+}
+
+
+
+
+
+
+
+
+  

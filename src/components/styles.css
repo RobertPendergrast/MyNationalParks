@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    background: linear-gradient(to right, #FAF9F6 70%, #56c596 90%);
+    color: #fff;
+    padding: 20px;
+    font-family: "poppins";
+  }
+
+  
+  .site-title {
+    padding-left: 3vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #56c596 ;
+  }
+  
+  .links {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FAF9F6;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 3%;
+  }
+  
+  li {
+    display: inline;
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+
+  
+
+  /*Footer*/
+  .foot{
+    background-color: #56c596;
+    font-family: "poppins";
+    color: #FAF9F6;
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.park{
+    padding: 100px;
+    color: #FAF9F6;
+}
+
+
