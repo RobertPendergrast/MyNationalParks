@@ -1,71 +1,40 @@
-# Getting Started with Create React App
+# MyNationalParks (FrontEnd)
+Author: Robert Pendergrast
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+As a national parks lover, I have always wanted a tool to document each of my trips in America's national parks. I often spend weekends or even weeks backpacking the wilderness. One of my life goals is to visit every national park!
 
-## Available Scripts
+## Programing
+This web application is written in JavaScript using the React.js framework. It also takes use of react-router to implement multiple pages. This will allow me to create new features at new domains as I add on to the project. 
 
-In the project directory, you can run:
+## Home Page
+The ./ directory is the app's home page, which appears as this:
 
-### `npm start`
+<img width="1688" alt="Screenshot 2024-05-08 at 10 56 12 PM" src="https://github.com/RobertPendergrast/WebDev/assets/121700465/b16bce32-526e-4e36-894d-694fc2cf3b13">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+One feature to note is the use of a NavBar, which allows for navigtion between the different areas of the site. 
+The navbar is set up by the following code:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="511" alt="Screenshot 2024-05-08 at 10 57 37 PM" src="https://github.com/RobertPendergrast/WebDev/assets/121700465/c174e890-063a-4d8d-8c42-ecded4418467">
 
-### `npm test`
+## Journal Entries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The user is allowed to make journal entries, composed of the national park name, the start date and end dates or their trip, and a description of their trip:
 
-### `npm run build`
+<img width="493" alt="Screenshot 2024-05-08 at 10 58 36 PM" src="https://github.com/RobertPendergrast/WebDev/assets/121700465/a3dd303b-5068-4c52-b729-997017012b28">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is done under the profile component, which takes advantage of the map function for each journal entry. Following Shivam's tutorial, I implemented axios for the integration with the backend.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="553" alt="Screenshot 2024-05-08 at 11 02 07 PM" src="https://github.com/RobertPendergrast/WebDev/assets/121700465/8dac3d77-d89a-4a90-8caa-0afe302504d8">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="609" alt="Screenshot 2024-05-08 at 11 02 24 PM" src="https://github.com/RobertPendergrast/WebDev/assets/121700465/feb60e30-5177-4c3e-ad46-09fb5e8ffbb3">
 
-### `npm run eject`
+## Park Component
+The park component represents each journal entry. When the user submits the form, a new park object is created. Each park is associated with a different image. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="847" alt="Screenshot 2024-05-08 at 10 59 46 PM" src="https://github.com/RobertPendergrast/WebDev/assets/121700465/7e1d4546-4634-4da2-a35f-0de8543c56bc">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# WebDev
+## Future Plans
+I want to implement the ability for the user to add images to their journal entries, and perhaps create an image carousel for each journal entry. I also want to add an additional page that tracks which parks the user has gone to, and which parks they have yet to visit. 
+Finally, I want to implement a login feature, but I did not have time to do this during the final exam period. 
